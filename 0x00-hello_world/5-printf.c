@@ -2,8 +2,10 @@
 
 /**
  * main - Entry point
- * Description:a C program that print using printf
- * return: should return 0
+ *
+ * Description: A C program that print using printf
+ *
+ * return: Always 0
 */
 
 int main(void)
