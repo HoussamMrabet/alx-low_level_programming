@@ -3,9 +3,9 @@
 /**
  * main - Entry point
  *
- * Description : A C program that prints without printf or puts
+ * Description: A C program that prints without printf or puts
  *
- * Return : return an error 1
+ * Return: Return an error 1
 */
 
 int main(void)
