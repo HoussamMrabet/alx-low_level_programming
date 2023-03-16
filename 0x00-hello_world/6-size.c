@@ -10,11 +10,16 @@
 
 int main(void)
 {
+	char c;
+	int i;
+	long int li;
+	long long int lli;
+	float f;
 	/* printing size of datatypes */
-	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(char));
-	printf("Size of an int: 4 byte(s)\n", (unsigned long)sizeof(int));
-	printf("Size of a long int: 4 byte(s)\n", (unsigned long)sizeof(long int));
-	printf("Size of a long long int: 8 byte(s)\n", (unsigned long)sizeof(long long int));
-	printf("Size of a float: 4 byte(s)\n", (unsigned long)sizeof(float));
+	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(c));
+	printf("Size of an int: 4 byte(s)\n", (unsigned long)sizeof(i));
+	printf("Size of a long int: 4 byte(s)\n", (unsigned long)sizeof(li));
+	printf("Size of a long long int: 8 byte(s)\n", (unsigned long)sizeof(lli));
+	printf("Size of a float: 4 byte(s)\n", (unsigned long)sizeof(f));
 	return (0);
 }
