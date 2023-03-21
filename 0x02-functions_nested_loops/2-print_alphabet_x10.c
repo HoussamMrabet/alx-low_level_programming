@@ -8,10 +8,13 @@
 
 void print_alphabet_x10(void)
 {
-	int ch, i;
+	char alph[] = "abcdefghijklmnopqrstuvwxyz";
+	int i, j;
 
 	for (i = 0; i < 10; i++)
-		for (ch = 'a'; ch <= 'z'; ch++)
-			_putchar(ch);
-		_putchar("\n");
+	{
+		for (j = 0; j < 26; j++)
+			_putchar(alph[j]);
+		_putchar('\n');
+	}
 }
