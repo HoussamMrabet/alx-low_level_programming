@@ -3,6 +3,7 @@
 /**
  * print_times_table - Entry
  * Description: a function that prints the n times table, starting with 0
+ * @n: An integer
  * Return: void function
 */
 
@@ -27,13 +28,13 @@ void print_times_table(int n)
 				{
 					if (k > 99)
 					{
-						_putchar('0' + ((k / 100) % 10));
+						_putchar('0' + ((k / 100));
 					}
 					else
 					{
 						_putchar(' ');
 					}
-					_putchar('0' + (k / 10));
+					_putchar('0' + ((k / 10) % 10));
 					_putchar('0' + (k % 10));
 				}
 				else
