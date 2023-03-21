@@ -9,7 +9,7 @@
 void jack_bauer(void)
 {
 	int i, j, k;
-	char min[], hr[], day[];
+	char min[2], hr[2], day[5];
 
 	for (i = 0; i < 24; i++)
 		for (j = 0; j < 60; j++)
