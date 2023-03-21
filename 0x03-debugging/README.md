@@ -1,4 +1,4 @@
-<h1">0x03. C - Debugging</h1>
+<h1>0x03. C - Debugging</h1>
 
 <div>
     <h2>Resources</h2>
