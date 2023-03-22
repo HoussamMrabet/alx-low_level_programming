@@ -6,13 +6,13 @@
  * @b: second integer
  * @c: third integer
  * Return: largest number
- */
+*/
 
 int largest_number(int a, int b, int c)
 {
 		int largest;
 
-		largest = (a > b && a > c)? a : (b > c)? b : c;
+		largest = (a > b && a > c) ? a : (b > c) ? b : c;
 
 		return (largest);
 }
