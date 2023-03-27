@@ -2,7 +2,7 @@
 
 /**
  * print_rev - A function that prints a string, in reverse
- * @s - String
+ * @s: String
  * Return: Only prints
 */
 
