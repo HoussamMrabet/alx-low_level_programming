@@ -8,8 +8,6 @@
 
 void _puts(char *str)
 {
-	int i;
-
 	while (*str != '\0')
 	{
 		printf("%c", *str);
