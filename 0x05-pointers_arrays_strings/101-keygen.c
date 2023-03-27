@@ -11,14 +11,14 @@
 int main(void)
 {
 	int i;
-	char password[16];
+	char password[100];
 
 	srand(time(NULL));
-	for (i = 0; i < 15; i++) {
+	for (i = 0; i < 99; i++) {
 		password[i] = rand() % 94 + 33;
 	}
 
-	password[15] = '\0';
+	password[99] = '\0';
 
 	printf("%s\n", password);
 
