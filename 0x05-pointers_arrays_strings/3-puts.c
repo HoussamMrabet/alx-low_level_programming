@@ -10,7 +10,10 @@ void _puts(char *str)
 {
 	int i;
 
-	for (i = 0; *str != '\0'; str++)
+	while (*str != '\0')
+	{
 		printf("%c", *str);
+		str++;
+	}
 	printf("\n");
 }
