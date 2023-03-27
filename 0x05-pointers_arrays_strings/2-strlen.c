@@ -10,5 +10,7 @@
 
 int _strlen(char *s)
 {
-	return (sizeof(&s));
+	char myString = *s;
+
+	return (sizeof(myString));
 }
