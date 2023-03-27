@@ -10,11 +10,12 @@
 
 int main(void)
 {
+	int i;
 	char password[16];
 
 	srand(time(NULL));
-	for (int i = 0; i < 15; i++) {
-	password[i] = rand() % 94 + 33;
+	for (i = 0; i < 15; i++) {
+		password[i] = rand() % 94 + 33;
 	}
 
 	password[15] = '\0';
