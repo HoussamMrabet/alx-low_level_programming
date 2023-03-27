@@ -2,9 +2,7 @@
 
 /**
  * puts_half - A function that prints the half of a string
- *
  * @str: String
- *
  * Return: Only prints
 */
 
@@ -24,5 +22,5 @@ void puts_half(char *str)
 		for (n = ((l - 1) / 2) + 1; str[n] != '\0'; n++)
 			printf("%c", str[n]);
 	}
-	printf('\n');
+	printf("\n");
 }
