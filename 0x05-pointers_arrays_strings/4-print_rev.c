@@ -12,7 +12,8 @@ void print_rev(char *s)
 
 	for (length = 0; *s != '\0'; s++)
 		length++;
+	printf("%d\n", length);
 	for (i = length - 1; i >= 0; i--)
-		printf("%s", *(s + i));
+		printf("%c", *(s + i));
 	printf("\n");
 }
