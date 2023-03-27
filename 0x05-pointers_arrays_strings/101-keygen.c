@@ -10,17 +10,25 @@
 
 int main(void)
 {
-	int i;
-	char password[100];
+	int pass[100];
+	int i, sum, n;
 
+	sum = 0;
 	srand(time(NULL));
-	for (i = 0; i < 99; i++) {
-		password[i] = rand() % 94 + 33;
+	for (i = 0; i < 100; i++)
+	{
+		pass[i] = rand() % 78;
+		sum += (pass[i] + '0');
+		printf("%d", pass[i]);
+		if ((2772 - sum) - '0' < 78)
+		{
+			n = 2772 - sum - '0';
+			sum += n;
+			printf("%d", n);
+			break;
+		}
 	}
-
-	password[99] = '\0';
-
-	printf("%s\n", password);
-
-	return 0;
+	printf("\n");
+	
+	return (0);
 }
