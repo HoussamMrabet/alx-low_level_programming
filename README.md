@@ -8,9 +8,9 @@
 ### 0x05. C - Pointers, arrays and strings ✅ *27/03/2023* ✅
 ### 0x06. C - More pointers, arrays and strings ✅ *29/03/2023 - 30/03/2023* ✅
 ### 0x07. C - Even more pointers, arrays and strings ✅ *03/04/2023* ✅
-### 0x08. C - Recursion ⏱
-### 0x09. C - Static libraries ⏱
-### 0x0A. C - argc, argv ⏱
+### 0x08. C - Recursion ✅ *05/04/2023* ✅
+### 0x09. C - Static libraries ✅ *06/04/2023 - 10/04/2023* ✅
+### 0x0A. C - argc, argv ✅ *10/04/2023 - 10/04/2023* ✅
 ### 0x0B. C - malloc, free ⏱
 ### 0x0C. C - More malloc, free ⏱
 ### 0x0D. C - Preprocessor ⏱
