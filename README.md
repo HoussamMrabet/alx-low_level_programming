@@ -11,7 +11,7 @@
 ### 0x08. C - Recursion ✅ *05/04/2023* ✅
 ### 0x09. C - Static libraries ✅ *06/04/2023 - 10/04/2023* ✅
 ### 0x0A. C - argc, argv ✅ *10/04/2023 - 10/04/2023* ✅
-### 0x0B. C - malloc, free ⏱
+### 0x0B. C - malloc, free ✅ *11/04/2023* ✅
 ### 0x0C. C - More malloc, free ⏱
 ### 0x0D. C - Preprocessor ⏱
 ### 0x0E. C - Structures, typedef ⏱
